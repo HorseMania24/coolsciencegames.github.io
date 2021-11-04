@@ -34,3 +34,18 @@ color: black;
     text-align: left;
 
 }
+
+.text {
+font-family: monospace;
+color: aliceblue;
+font-size: 14px;
+
+}
+
+.flashbox {
+width = 625px;
+height = 525px;
+background: rgb(53, 52, 52);
+outline: 5px, solid black; 
+
+}
