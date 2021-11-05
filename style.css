@@ -106,7 +106,7 @@ body {
     position: relative;
     border-radius: 50%;
     top: -25px;
-    left: 125px;
+    left: 50px
 }
 
 .tooltip:hover:after {
