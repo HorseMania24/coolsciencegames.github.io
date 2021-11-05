@@ -116,3 +116,9 @@ body {
     border-radius: 5px;
     content: "Press F11 for Fullscreen."
 }
+
+@keyframes fadein {
+    from {Opacity: 0;}
+    to {Opacity: 1;}
+
+}
