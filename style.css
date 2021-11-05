@@ -51,8 +51,8 @@ font-size: 14px;
 }
 
 .flashbox {
-width = 700px;
-height = 600px;
+width : 665px;
+height : 515px;
 background: rgb(53, 52, 52);
 outline: 5px, solid black; 
 
