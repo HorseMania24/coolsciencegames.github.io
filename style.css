@@ -44,6 +44,7 @@ body {
     top: -150px;
     margin-right: 800px;
     padding: 20px;
+<<<<<<< HEAD
     padding-bottom: 100px;
     border: 3px solid black;
     width: 300px;
@@ -60,6 +61,8 @@ body {
     top: -426px;
     right: 550px;
     padding: 20px;
+=======
+>>>>>>> 24de06d8cfe824280ad720579061c7e046f1d64c
     padding-bottom: 100px;
     border: 3px solid black;
     width: 300px;
@@ -73,8 +76,30 @@ body {
 
 .container3 {
     position: relative;
+<<<<<<< HEAD
     top: -852px;
     right: -230px;
+=======
+    left: -450px;
+    top: -150px;
+    right: 550px;
+    padding: 20px;
+    padding-bottom: 100px;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+
+}
+
+.container3 {
+    position: relative;
+    top: -150px;
+    right: 359px;
+>>>>>>> 24de06d8cfe824280ad720579061c7e046f1d64c
     margin-right: -300px;
     padding: 20px;
     padding-bottom: 100px;
