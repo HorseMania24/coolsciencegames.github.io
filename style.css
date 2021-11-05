@@ -96,3 +96,23 @@ body {
     background: rgb(53, 52, 52);
     background-image: url("border.2.png");
 }
+
+.tooltip .tooltiptext {
+    background-color: aliceblue;
+    Color: black;
+    position: relative;
+    top: -25px;
+    left: 125px;
+}
+
+.tooltip:hover:afer {
+    position: relative;
+    top: -25px;
+    left: 150px;
+    width: 50px;
+    height 50px;
+    -webkit-animation: fadein 0.5s;
+    background-color: black;
+    border-radius: 5px;
+    content: "Press F11 for Fullscreen."
+}
