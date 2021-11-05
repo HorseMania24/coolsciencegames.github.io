@@ -110,11 +110,12 @@ body {
 
 .tooltip:hover:after {
     position: relative;
-    top: -50x;
-    left: 150px;
+    top: -25x;
+    left: 125px;
     width: 50px;
     height 50px;
     -webkit-animation: fadein 0.5s;
+    color: aliceblue;
     background-color: black;
     border-radius: 5px;
     content: "Press F11 for Fullscreen."
