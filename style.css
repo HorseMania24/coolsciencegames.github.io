@@ -18,6 +18,15 @@ background-color: indigo;
 
 }
 
+.logo2 {
+
+    width: 900px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(48, 108, 219);
+
+}
+
 .sdsd {
     padding: 20px;
     margin: 20px;
@@ -51,8 +60,8 @@ font-size: 14px;
 }
 
 .flashbox {
-width : 665px;
-height : 515px;
+width : 816px;
+height : 615px;
 background: rgb(53, 52, 52);
 background-image: url("border.2.png");
 
