@@ -11,6 +11,7 @@ body {
 }
 
 .logo {
+    margin-left: 50%;
     margin-top: 100px;
     width : 300px;
     height : 250px;
@@ -20,6 +21,7 @@ body {
 }
 
 .logo2 {
+    margin-left: 50%;
     margin-top: 25px;
     width: 900px;
     height: 150px;
