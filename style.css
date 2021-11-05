@@ -98,14 +98,17 @@ body {
 }
 
 .tooltip .tooltiptext {
+    width: 25px;
+    height: 25px;
     background-color: aliceblue;
-    Color: black;
+    text-Color: black;
     position: relative;
+    border-radius: 50%;
     top: -25px;
     left: 125px;
 }
 
-.tooltip:hover:afer {
+.tooltip:hover:after {
     position: relative;
     top: -25px;
     left: 150px;
