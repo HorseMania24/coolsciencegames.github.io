@@ -1,5 +1,5 @@
 body {
-
+    -webkit-animation: fadein 2s;
     background-color: rgb(44, 0, 75);
 }
 
@@ -31,7 +31,7 @@ body {
 
     padding: 10px;
     border: 5px solid black;
-    width: 1000px;
+    width: 1100px;
     height: 500px;
     background: rgb(53, 52, 52);
     border-radius: 10px;
@@ -40,9 +40,26 @@ body {
 }
 
 .container1 {
+    position: relative
+    top: -150px;
+    margin-right: 800px;
+    padding: 20px;
+    padding-bottom: 100px;
+    border: 3px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    background: rgb(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+}
 
-    margin-right: 700px;
-    padding: 10px;
+.container2 {
+    position: relative;
+    left: 2px;
+    top: -426px;
+    right: 550px;
+    padding: 20px;
     padding-bottom: 100px;
     border: 3px solid black;
     width: 300px;
@@ -54,12 +71,12 @@ body {
 
 }
 
-.container2 {
+.container3 {
     position: relative;
-    top: -415px;
-    left: -135px;
+    top: -852px;
+    right: -230px;
     margin-right: -300px;
-    padding: 10px;
+    padding: 20px;
     padding-bottom: 100px;
     border: 3px solid black;
     width: 300px;
@@ -76,7 +93,7 @@ body {
     top: -25px;
     left: -15px;
     background-color: black;
-    width: 1030px;
+    width: 1130px;
     height: 20px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
@@ -95,4 +112,35 @@ body {
     height : 615px;
     background: rgb(53, 52, 52);
     background-image: url("border.2.png");
+}
+
+.tooltip .tooltiptext {
+    Content: "🛈";
+    width: 25px;
+    height: 25px;
+    background-color: aliceblue;
+    Color: black;
+    position: relative;
+    border-radius: 50%;
+    top: -25px;
+    left: 50px
+}
+
+.tooltip:hover:after {
+    position: relative;
+    top: -25x;
+    left: 50px;
+    width: 50px;
+    height 50px;
+    -webkit-animation: fadein 0.5s;
+    color: aliceblue;
+    background-color: black;
+    border-radius: 5px;
+    content: "Press F11 for Fullscreen."
+}
+
+@keyframes fadein {
+    from {Opacity: 0;}
+    to {Opacity: 1;}
+
 }
