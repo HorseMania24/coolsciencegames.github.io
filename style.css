@@ -1,9 +1,5 @@
 body {
-    -webkit-animation: fadein 1s;
-    animation-delay: 0.5;
-    -webkit-animation: fadein 1s;
-    animation-delay: 0.5;
-    -webkit-animation: fadein 1s;
+    -webkit-animation: fadein 8s;
     background-color: rgb(44, 0, 75);
 }
 
