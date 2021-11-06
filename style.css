@@ -112,7 +112,6 @@ body {
     background-image: url("border.2.png");
 }
 
-}
 @keyframes fadein {
     from {Opacity: 0;}
     to {opacity: 0.2;}
